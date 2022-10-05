@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+  --prime: #118c4f;
+  --background: #f5f8ff;
+}
+
+.primary {
+  color: var(--prime)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 14px 32px;
+  border: 1px solid var(--prime);
+  background: var(--prime);
+  color: #fff;
+  border-radius: 24px 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: rgb(0 0 0 / 15%) 8px 8px 24px;
+}
+
+input {
+  padding: 12px 32px;
+  border: 1px solid var(--prime);
+  background: transparent;
+  font-size: 1rem;
+  margin-right: .8rem;
+  font-family: 'Poppins', sans-serif
+
+}
+
+@media screen and (max-width: 768px){
+  h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 1rem 0;
+
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
